@@ -1,0 +1,10 @@
+[Unit]
+Description=DDNS Timer
+After=network-online.target
+ 
+[Timer]
+OnUnitActiveSec=5m
+Unit=ddns.service
+
+[Install]
+WantedBy=multi-user.target

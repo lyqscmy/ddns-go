@@ -1,0 +1,10 @@
+[Unit]
+Description=DDNS
+After=network-online.target
+ 
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ddns -c /etc/ddns.json
+ 
+[Install]
+WantedBy=multi-user.target
