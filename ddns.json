@@ -1,0 +1,7 @@
+{
+    "secret_id": "abc",
+    "secret_key": "abc",
+    "domain": "example.com",
+    "sub_domain": "sub",
+    "interface_name": "wlo1"
+}
